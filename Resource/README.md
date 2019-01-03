@@ -1,4 +1,4 @@
-# Resource
+# 资源
 
 ## 站点
 * [深入理解php内核](http://php-internals.com/)
