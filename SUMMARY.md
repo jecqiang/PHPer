@@ -1,7 +1,7 @@
 # Summary
 
 * [PHP开发知识结构](README.md)
-* [数据结构]
+* 数据结构
    * [什么是数据结构](Data/DataStructure/数据结构/1. 什么是数据结构.md)
    * [线性表](Data/DataStructure/数据结构/2. 线性表.md)
    * [链表](Data/DataStructure/数据结构/3. 链表.md)
