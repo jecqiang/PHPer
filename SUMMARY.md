@@ -1,15 +1,173 @@
-# Summary
+# Your Book Title
 
-* [PHP开发知识结构](README.md)
-* 数据结构
-   * [什么是数据结构](Data/DataStructure/数据结构/1. 什么是数据结构.md)
-   * [线性表](Data/DataStructure/数据结构/2. 线性表.md)
-   * [链表](Data/DataStructure/数据结构/3. 链表.md)
-   * [数组](Data/DataStructure/数据结构/4. 数组.md)
-   * [栈](Data/DataStructure/数据结构/5. 栈.md)
-   * [队列](Data/DataStructure/数据结构/6. 队列.md)
-   * [哈希表](Data/DataStructure/数据结构/7. 哈希表.md)
-   * [堆](Data/DataStructure/数据结构/8. 堆.md)
-   * [二叉查找树](Data/DataStructure/数据结构/9. 二叉查找树.md)
-
-
+- Book
+  - Architecture
+    - [Docker](_book/Architecture/Docker/README.md)
+      * [0. 简介](_book/Architecture/Docker/0. 简介.md)
+      * [1. 安装](_book/Architecture/Docker/1. 安装.md)
+      * [2. 基本概念](_book/Architecture/Docker/2. 基本概念.md)
+      * [3. 镜像操作](_book/Architecture/Docker/3. 镜像操作.md)
+      * [4. 容器操作](_book/Architecture/Docker/4. 容器操作.md)
+      * [5. 仓库操作](_book/Architecture/Docker/5. 仓库操作.md)
+      * [6. 数据卷](_book/Architecture/Docker/6. 数据卷.md)
+      * [7. 资源列表](_book/Architecture/Docker/7. 资源列表.md)
+      * [8. 常见问题](_book/Architecture/Docker/8. 常见问题.md)
+      * [9. 应用](_book/Architecture/Docker/9. 应用.md)
+    - [Micro Services](_book/Architecture/MicroServices/README.md)
+- Architecture
+  - [Docker](Architecture/Docker/README.md)
+    * [0. 简介](Architecture/Docker/0. 简介.md)
+    * [1. 安装](Architecture/Docker/1. 安装.md)
+    * [2. 基本概念](Architecture/Docker/2. 基本概念.md)
+    * [3. 镜像操作](Architecture/Docker/3. 镜像操作.md)
+    * [4. 容器操作](Architecture/Docker/4. 容器操作.md)
+    * [5. 仓库操作](Architecture/Docker/5. 仓库操作.md)
+    * [6. 数据卷](Architecture/Docker/6. 数据卷.md)
+    * [7. 资源列表](Architecture/Docker/7. 资源列表.md)
+    * [8. 常见问题](Architecture/Docker/8. 常见问题.md)
+    * [9. 应用](Architecture/Docker/9. 应用.md)
+  - K 8 S
+    * [安装](Architecture/k8s/安装.md)
+  - [Micro Services](Architecture/MicroServices/README.md)
+    * [RPC](Architecture/MicroServices/RPC.md)
+    * [参考资料](Architecture/MicroServices/参考资料.md)
+  - Networks
+    - HTTP
+      * [1. 互联网协议入门](Architecture/Networks/HTTP/1. 互联网协议入门.md)
+      * [2. HTTP协议入门](Architecture/Networks/HTTP/2. HTTP协议入门.md)
+      * [3. HTTP报文内的HTTP信息](Architecture/Networks/HTTP/3. HTTP报文内的HTTP信息.md)
+      * [4. HTTP状态码](Architecture/Networks/HTTP/4. HTTP状态码.md)
+      * [5. Web服务器](Architecture/Networks/HTTP/5. Web服务器.md)
+      * [6. HTTPS](Architecture/Networks/HTTP/6. HTTPS.md)
+      * [7. 用户身份的认证](Architecture/Networks/HTTP/7. 用户身份的认证.md)
+    * [IO定义](Architecture/Networks/IO定义.md)
+    * [IO模型](Architecture/Networks/IO模型.md)
+    * [同步异步、阻塞非阻塞](Architecture/Networks/同步异步、阻塞非阻塞.md)
+    * [进程、线程、协程](Architecture/Networks/进程、线程、协程.md)
+- Data
+  - [Algorithm](Data/Algorithm/README.md)
+    - Other
+      * [一致性hash](Data/Algorithm/Other/一致性hash.md)
+      * [哈希算法](Data/Algorithm/Other/哈希算法.md)
+    * [冒泡排序](Data/Algorithm/冒泡排序.md)
+    * [快速排序](Data/Algorithm/快速排序.md)
+    * [直接插入排序](Data/Algorithm/直接插入排序.md)
+    * [选择排序](Data/Algorithm/选择排序.md)
+  - Data Structure
+    - 数据结构
+      * [1. 什么是数据结构](Data/DataStructure/数据结构/1. 什么是数据结构.md)
+      * [2. 线性表](Data/DataStructure/数据结构/2. 线性表.md)
+      * [3. 链表](Data/DataStructure/数据结构/3. 链表.md)
+      * [4. 数组](Data/DataStructure/数据结构/4. 数组.md)
+      * [5. 栈](Data/DataStructure/数据结构/5. 栈.md)
+      * [6. 队列](Data/DataStructure/数据结构/6. 队列.md)
+      * [7. 哈希表](Data/DataStructure/数据结构/7. 哈希表.md)
+      * [8. 堆](Data/DataStructure/数据结构/8. 堆.md)
+      * [9. 二叉查找树](Data/DataStructure/数据结构/9. 二叉查找树.md)
+    * [1 简介](Data/DataStructure/1 简介.md)
+    * [2 时间复杂度](Data/DataStructure/2 时间复杂度.md)
+- Data Base
+  - [Cache](DataBase/Cache/README.md)
+    * [Memcached介绍](DataBase/Cache/Memcached介绍.md)
+    * [Memcached使用](DataBase/Cache/Memcached使用.md)
+    * [MongoDB入门](DataBase/Cache/MongoDB入门.md)
+    * [Redis入门](DataBase/Cache/Redis入门.md)
+    * [对比](DataBase/Cache/对比.md)
+  - My SQL
+    - 基础篇
+      * [1. Mysql](DataBase/MySQL/基础篇/1. Mysql.md)
+      * [2. 数据库操作](DataBase/MySQL/基础篇/2. 数据库操作.md)
+      * [3. 数据类型](DataBase/MySQL/基础篇/3. 数据类型.md)
+      * [4. 数据库设计](DataBase/MySQL/基础篇/4. 数据库设计.md)
+      * [5. 索引](DataBase/MySQL/基础篇/5. 索引.md)
+      * [6. 事务](DataBase/MySQL/基础篇/6. 事务.md)
+      * [x1. 一条SQL查询语句是如何执行的？](DataBase/MySQL/基础篇/x1. 一条SQL查询语句是如何执行的？.md)
+    - 实践篇
+      * [1. 事务回滚](DataBase/MySQL/实践篇/1. 事务回滚.md)
+      * [2. 隐式转换](DataBase/MySQL/实践篇/2. 隐式转换.md)
+    - 性能优化
+      * [1. 执行优化](DataBase/MySQL/性能优化/1. 执行优化.md)
+      * [2. 架构优化](DataBase/MySQL/性能优化/2. 架构优化.md)
+    - 文档
+      * [Mysql安装](DataBase/MySQL/文档/Mysql安装.md)
+    * [x1. 常见问题](DataBase/MySQL/x1. 常见问题.md)
+    * [x2 参考资料](DataBase/MySQL/x2 参考资料.md)
+    * [x3 资料推荐](DataBase/MySQL/x3 资料推荐.md)
+  - Redis
+    - 进阶
+      * [消息队列](DataBase/Redis/进阶/消息队列.md)
+      * [管道](DataBase/Redis/进阶/管道.md)
+    * [1. 简介](DataBase/Redis/1. 简介.md)
+    * [2. Key](DataBase/Redis/2. Key.md)
+    * [3. String](DataBase/Redis/3. String.md)
+    * [TODO](DataBase/Redis/TODO.md)
+    * [x1. 常见问题](DataBase/Redis/x1. 常见问题.md)
+    * [x2. 参考资料](DataBase/Redis/x2. 参考资料.md)
+    * [x3. 缓存特征、介质](DataBase/Redis/x3. 缓存特征、介质.md)
+- Front End
+  - Vuejs
+    * [Vue入门](FrontEnd/Vuejs/Vue入门.md)
+    * [开源项目库汇总](FrontEnd/Vuejs/开源项目库汇总.md)
+- Issues
+  * [Curl](Issues/Curl.md)
+  * [Git](Issues/Git.md)
+  * [Redis](Issues/Redis.md)
+  * [无法常驻内存](Issues/无法常驻内存.md)
+  * [环境搭建常见问题](Issues/环境搭建常见问题.md)
+- Notes
+  - Nginx
+    * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
+    * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
+  - Rabbit Mq
+    * [1. RabbitMq的基础](Notes/RabbitMq/1. RabbitMq的基础.md)
+    * [2. RabbitMq的概念](Notes/RabbitMq/2. RabbitMq的概念.md)
+    * [x1. RabbitMQ与Redis队列对比](Notes/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
+  * [Git撤销merge合并](Notes/Git撤销merge合并.md)
+  * [js中iframe的使用](Notes/js中iframe的使用.md)
+  * [Linux 防止rm误删文件，将rm配置成mv到.trash ](Notes/Linux 防止rm误删文件，将rm配置成mv到.trash .md)
+  * [Vuejs入门](Notes/Vuejs入门.md)
+  * [Window10使用Minikube快速搭建Kubernetes环境](Notes/Window10使用Minikube快速搭建Kubernetes环境.md)
+  * [xdebug的使用](Notes/xdebug的使用.md)
+  * [内网和外网](Notes/内网和外网.md)
+  * [字符串加密解密](Notes/字符串加密解密.md)
+  * [常用函数](Notes/常用函数.md)
+  * [高性能](Notes/高性能.md)
+- PHP
+  - Framework
+    - [Swoft](PHP/Framework/Swoft/README.md)
+      - [数据库操作](PHP/Framework/Swoft/数据库操作/数据库操作.md)
+        * [Dao](PHP/Framework/Swoft/数据库操作/Dao.md)
+        * [x0 学习资料](PHP/Framework/Swoft/数据库操作/x0 学习资料.md)
+      * [0. 安装](PHP/Framework/Swoft/0. 安装.md)
+      * [1. 目录结构](PHP/Framework/Swoft/1. 目录结构.md)
+      * [2. 生命周期](PHP/Framework/Swoft/2. 生命周期.md)
+      * [3. HTTP服务](PHP/Framework/Swoft/3. HTTP服务.md)
+      * [4. 缓存](PHP/Framework/Swoft/4. 缓存.md)
+      * [6. 视图](PHP/Framework/Swoft/6. 视图.md)
+      * [x1. 问题](PHP/Framework/Swoft/x1. 问题.md)
+  - 不足
+    * [无法常驻内存](PHP/不足/无法常驻内存.md)
+  - 常见问题
+    * [浮点数的精度](PHP/常见问题/浮点数的精度.md)
+  - [进程](PHP/进程/进程.md)
+    * [管道](PHP/进程/管道.md)
+    * [进程间通信](PHP/进程/进程间通信.md)
+  * [PHP Jit](PHP/PHP jit.md)
+  * [php 后端实现JWT认证方法](PHP/php 后端实现JWT认证方法.md)
+- [Resource](Resource/README.md)
+  - Github
+    * [Github项目推荐](Resource/Github/Github项目推荐.md)
+  - [Manual](Resource/Manual/README.md)
+- Todo
+  * [TODO](Todo/TODO.md)
+- [Tools](Tools/README.md)
+  - Git
+    * [Git忽略.gitignore](Tools/Git/Git忽略.gitignore.md)
+    * [Source Tree](Tools/Git/SourceTree.md)
+    * [代码回滚](Tools/Git/代码回滚.md)
+    * [多版本工作流](Tools/Git/多版本工作流.md)
+    * [工作流](Tools/Git/工作流.md)
+    * [快速入门Git](Tools/Git/快速入门Git.md)
+  * [Other](Tools/Other.md)
+  * [Postman](Tools/Postman.md)
+  * [Sublime](Tools/Sublime.md)
