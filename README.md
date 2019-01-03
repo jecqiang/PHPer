@@ -59,6 +59,7 @@
 - [Apache](http://www.apache.org/)
 - [Mysql](https://dev.mysql.com/doc/)
 - [PHP](http://php.net/manual/zh/install.php)
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 ## 编程语言
 - 前端：CSS/Html/JavaScript/[bootstrap](https://getbootstrap.com/)
