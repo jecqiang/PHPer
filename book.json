@@ -1,34 +1,8 @@
 {
     "author": "Ben Zhu <han8gui@gmail.com>",
     "bookname": "PHP开发知识结构",
+    "title": "PHP开发知识结构",
     "description": "PHP开发知识结构",
     "extension": null,
-    "generator": "site",
-    "isbn": null,
-    "links": {
-        "sharing": {
-            "all": null,
-            "facebook": null,
-            "google": null,
-            "twitter": null,
-            "weibo": null
-        }
-    },
-    "output": null,
-    "pdf": {
-        "fontSize": 12,
-        "footerTemplate": null,
-        "headerTemplate": null,
-        "margin": {
-            "bottom": 36,
-            "left": 62,
-            "right": 62,
-            "top": 36
-        },
-        "pageNumbers": false,
-        "paperSize": "a4"
-    },
-    "plugins": [],
-    "title": "PHP开发知识结构",
-    "variables": {}
+    "generator": "site"
 }

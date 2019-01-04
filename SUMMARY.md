@@ -94,13 +94,13 @@
   - Vuejs
     * [Vue入门](FrontEnd/Vuejs/Vue入门.md)
     * [开源项目库汇总](FrontEnd/Vuejs/开源项目库汇总.md)
-- Issues
-  * [Curl](Issues/Curl.md)
-  * [Git](Issues/Git.md)
-  * [Redis](Issues/Redis.md)
-  * [无法常驻内存](Issues/无法常驻内存.md)
-  * [环境搭建常见问题](Issues/环境搭建常见问题.md)
 - Notes
+  - Issues
+    * [Curl](Notes/Issues/Curl.md)
+    * [Git](Notes/Issues/Git.md)
+    * [Redis](Notes/Issues/Redis.md)
+    * [无法常驻内存](Notes/Issues/无法常驻内存.md)
+    * [环境搭建常见问题](Notes/Issues/环境搭建常见问题.md)
   - Nginx
     * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
     * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
@@ -144,16 +144,15 @@
   - Github
     * [Github项目推荐](Resource/Github/Github项目推荐.md)
   - [Manual](Resource/Manual/README.md)
-- Todo
-  * [TODO](Todo/TODO.md)
-- [Tools](Tools/README.md)
-  - Git
-    * [Git忽略.gitignore](Tools/Git/Git忽略.gitignore.md)
-    * [Source Tree](Tools/Git/SourceTree.md)
-    * [代码回滚](Tools/Git/代码回滚.md)
-    * [多版本工作流](Tools/Git/多版本工作流.md)
-    * [工作流](Tools/Git/工作流.md)
-    * [快速入门Git](Tools/Git/快速入门Git.md)
-  * [Other](Tools/Other.md)
-  * [Postman](Tools/Postman.md)
-  * [Sublime](Tools/Sublime.md)
+  - [Tools](Resource/Tools/README.md)
+    - Git
+      * [Git忽略.gitignore](Resource/Tools/Git/Git忽略.gitignore.md)
+      * [Source Tree](Resource/Tools/Git/SourceTree.md)
+      * [代码回滚](Resource/Tools/Git/代码回滚.md)
+      * [多版本工作流](Resource/Tools/Git/多版本工作流.md)
+      * [工作流](Resource/Tools/Git/工作流.md)
+      * [快速入门Git](Resource/Tools/Git/快速入门Git.md)
+    * [Other](Resource/Tools/Other.md)
+    * [Postman](Resource/Tools/Postman.md)
+    * [Sublime](Resource/Tools/Sublime.md)
+  * [TODO](Resource/TODO.md)
