@@ -16,31 +16,29 @@
 /**
  * bubbleSort
  *
- * @param  array  $a
+ * @param  array  $arr
  *
  * @return array
  */
-function bubbleSort(array $a)
+function bubbleSort(array $arr)
 {
-    $length = count($a);
+    $length = count($arr);
     if ( $length < 2 ) {
-        return $a;
+        return $arr;
     }
     for ($i = 0; $i < $length; $i++) {
         for ($j = $length-1; $j > $i; $j--) {
-            if ( $a[$j] < $a[$j-1] ) {
-                $tmp     = $a[$j];
-                $a[$j]   = $a[$j-1];
-                $a[$j-1] = $tmp;
+            if ( $arr[$j] < $arr[$j-1] ) {
+                list($arr[$j], $arr[$j-1]) = [$arr[$j-1], $arr[$j]];
             }
         }
     }
-    return $a;
+    return $arr;
 }
 
 // example
-$a = [1, 5, 3, 100, 40, 50];
+$arr = [1, 5, 3, 100, 40, 50];
 echo "<pre>";
-print_r($a);
-$a = bubbleSort($a);
-print_r($a);
+print_r($arr);
+$arr = bubbleSort($arr);
+print_r($arr);

@@ -15,37 +15,37 @@
 /**
  * selectionSort
  *
- * @param  array  $a 需要排序的数据
+ * @param  array  $arr 需要排序的数据
  *
- * @return array  $a 排序后的数据
+ * @return array  $arr 排序后的数据
  *
  */
-function selectionSort(array $a)
+function selectionSort(array $arr)
 {
-    $length = count($a);
+    $length = count($arr);
     if ( $length < 2 ) {
-        return $a;
+        return $arr;
     }
     for ( $i = 0; $i < $length -1; $i++ ) {
-        $min = $i;
+        $min = $i; // 最小值下标
         for ( $j = $i + 1; $j < $length; $j++ ) {
-            if ( $a[$min] > $a[$j] ) {
+            if ( $arr[$min] > $arr[$j] ) {
                 $min = $j;
             }
             // 需要交换最小值
             if ( $min != $i ) {
-                $tmp     = $a[$min];
-                $a[$min] = $a[$i];
-                $a[$i]   = $tmp;
+                $tmp     = $arr[$min];
+                $arr[$min] = $arr[$i];
+                $arr[$i]   = $tmp;
                 $min     = $i;
             }
         }
     }
-    return $a;
+    return $arr;
 }
 
 // example
-$a = [200, 99, 180, 33, 11, 33, 789, 301, 45, 200];
+$arr = [200, 99, 180, 33, 11, 33, 789, 301, 45, 200];
 echo "<pre>";
-print_r($a);
-print_r(selectionSort($a));
+print_r($arr);
+print_r(selectionSort($arr));

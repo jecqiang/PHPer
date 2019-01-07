@@ -20,22 +20,23 @@
  * @param  array  $numArr
  * @return array
  */
-function quickSort(array $numArr) {
-    if ( count($numArr) <= 1 ) {
-        return $numArr;
+function quickSort(array $arr)
+{
+    if (count($arr) <= 1) {
+        return $arr;
     }
-    $pivot = array_pop($numArr);
-    $left = $right = array();
-    foreach ($numArr as $one) {
-        if ( $one <= $pivot ) {
-            array_push($left, $one);
+    $pivot = array_pop($arr);
+    $left = $right = [];
+    foreach ($arr as $value) {
+        if ($value >= $pivot) {
+            $right[] = $value;
         } else {
-            array_push($right, $one);
+            $left[] = $value;
         }
     }
     $left = quickSort($left);
     $right = quickSort($right);
-    return array_merge($left, array($pivot), $right);
+    return array_merge($left, [$pivot], $right);
 }
 
 // example
