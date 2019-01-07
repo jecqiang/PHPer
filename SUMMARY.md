@@ -57,13 +57,14 @@
     * [Design Patterns](Architecture/设计模式/DesignPatterns.md)
 - Data
   - [Algorithm](Data/Algorithm/README.md)
-    - Other
-      * [一致性hash](Data/Algorithm/Other/一致性hash.md)
-      * [哈希算法](Data/Algorithm/Other/哈希算法.md)
-    * [冒泡排序](Data/Algorithm/冒泡排序.md)
-    * [快速排序](Data/Algorithm/快速排序.md)
-    * [直接插入排序](Data/Algorithm/直接插入排序.md)
-    * [选择排序](Data/Algorithm/选择排序.md)
+    - 排序
+      * [冒泡排序](Data/Algorithm/排序/冒泡排序.md)
+      * [快速排序](Data/Algorithm/排序/快速排序.md)
+      * [插入排序](Data/Algorithm/排序/插入排序.md)
+      * [直接插入排序](Data/Algorithm/排序/直接插入排序.md)
+      * [选择排序](Data/Algorithm/排序/选择排序.md)
+    * [一致性hash](Data/Algorithm/一致性hash.md)
+    * [哈希算法](Data/Algorithm/哈希算法.md)
   - Data Structure
     - 数据结构
       * [1. 什么是数据结构](Data/DataStructure/数据结构/1. 什么是数据结构.md)
@@ -124,6 +125,14 @@
     * [代码简洁之道](Notes/Code/代码简洁之道.md)
     * [代码要求](Notes/Code/代码要求.md)
     * [代码调试](Notes/Code/代码调试.md)
+  - Git
+    * [Git忽略.gitignore](Notes/Git/Git忽略.gitignore.md)
+    * [Git撤销merge合并](Notes/Git/Git撤销merge合并.md)
+    * [Source Tree](Notes/Git/SourceTree.md)
+    * [代码回滚](Notes/Git/代码回滚.md)
+    * [多版本工作流](Notes/Git/多版本工作流.md)
+    * [工作流](Notes/Git/工作流.md)
+    * [快速入门Git](Notes/Git/快速入门Git.md)
   - HTTP
     * [HTTP状态码](Notes/HTTP/HTTP状态码.md)
   - Issues
@@ -134,6 +143,8 @@
     * [环境搭建常见问题](Notes/Issues/环境搭建常见问题.md)
   - Linux
     * [Apache 和 nginx](Notes/Linux/Apache 和 nginx.md)
+    * [Linux 防止rm误删文件，将rm配置成mv到.trash ](Notes/Linux/Linux 防止rm误删文件，将rm配置成mv到.trash .md)
+    * [Linux下执行shell脚本，提示No such file or directory](Notes/Linux/Linux下执行shell脚本，提示No such file or directory.md)
     * [Vim批量替换](Notes/Linux/Vim批量替换.md)
     * [命令](Notes/Linux/命令.md)
     * [安装扩展](Notes/Linux/安装扩展.md)
@@ -147,9 +158,7 @@
     * [2. RabbitMq的概念](Notes/RabbitMq/2. RabbitMq的概念.md)
     * [x1. RabbitMQ与Redis队列对比](Notes/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
   * [Gitbook自动生成SUMMARY](Notes/Gitbook自动生成SUMMARY.md)
-  * [Git撤销merge合并](Notes/Git撤销merge合并.md)
   * [js中iframe的使用](Notes/js中iframe的使用.md)
-  * [Linux 防止rm误删文件，将rm配置成mv到.trash ](Notes/Linux 防止rm误删文件，将rm配置成mv到.trash .md)
   * [Vuejs入门](Notes/Vuejs入门.md)
   * [Window10使用Minikube快速搭建Kubernetes环境](Notes/Window10使用Minikube快速搭建Kubernetes环境.md)
   * [xdebug的使用](Notes/xdebug的使用.md)
