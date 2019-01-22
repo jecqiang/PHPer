@@ -168,4 +168,6 @@ __上方__
 ## 参考文章
 [https://segmentfault.com/a/1190000011387666](https://segmentfault.com/a/1190000011387666)
 
+## 其他问题
+1. 需要关闭防火墙
 
