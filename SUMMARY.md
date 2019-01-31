@@ -142,7 +142,6 @@
     * [代码回滚](Notes/Git/代码回滚.md)
     * [多版本工作流](Notes/Git/多版本工作流.md)
     * [工作流](Notes/Git/工作流.md)
-    * [快速入门Git](Notes/Git/快速入门Git.md)
   - Gitbook
     * [Gitbook自动生成SUMMARY](Notes/Gitbook/Gitbook自动生成SUMMARY.md)
   - HTTP
@@ -227,7 +226,6 @@
       * [代码回滚](Resource/Tools/Git/代码回滚.md)
       * [多版本工作流](Resource/Tools/Git/多版本工作流.md)
       * [工作流](Resource/Tools/Git/工作流.md)
-      * [快速入门Git](Resource/Tools/Git/快速入门Git.md)
     * [Markdown](Resource/Tools/Markdown.md)
     * [Other](Resource/Tools/Other.md)
     * [Postman](Resource/Tools/Postman.md)
