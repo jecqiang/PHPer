@@ -12,8 +12,9 @@
     * [7. 资源列表](Architecture/Docker/7. 资源列表.md)
     * [8. 常见问题](Architecture/Docker/8. 常见问题.md)
     * [9. 应用](Architecture/Docker/9. 应用.md)
-  - K 8 S
-    * [安装](Architecture/k8s/安装.md)
+  - Kubernetes
+    * [Window10使用Minikube快速搭建Kubernetes环境](Architecture/Kubernetes/Window10使用Minikube快速搭建Kubernetes环境.md)
+    * [安装](Architecture/Kubernetes/安装.md)
   - [Micro Services](Architecture/MicroServices/README.md)
     * [1. 服务框架](Architecture/MicroServices/1. 服务框架.md)
     * [3. 服务安全](Architecture/MicroServices/3. 服务安全.md)
@@ -48,6 +49,12 @@
     * [协程](Architecture/Networks/协程.md)
     * [同步异步、阻塞非阻塞](Architecture/Networks/同步异步、阻塞非阻塞.md)
     * [进程、线程、协程](Architecture/Networks/进程、线程、协程.md)
+  - Rabbit Mq
+    * [1. RabbitMq的基础](Architecture/RabbitMq/1. RabbitMq的基础.md)
+    * [2. RabbitMq的概念](Architecture/RabbitMq/2. RabbitMq的概念.md)
+    * [x1. RabbitMQ与Redis队列对比](Architecture/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
+  - 架构基础
+    * [高性能](Architecture/架构基础/高性能.md)
   - [设计模式](Architecture/设计模式/README.md)
     - Notes
       - 工厂
@@ -64,6 +71,7 @@
       * [直接插入排序](Data/Algorithm/排序/直接插入排序.md)
       * [选择排序](Data/Algorithm/排序/选择排序.md)
     * [一致性hash](Data/Algorithm/一致性hash.md)
+    * [参考资料](Data/Algorithm/参考资料.md)
     * [哈希算法](Data/Algorithm/哈希算法.md)
   - Data Structure
     - 数据结构
@@ -117,8 +125,10 @@
     * [x2. 参考资料](DataBase/Redis/x2. 参考资料.md)
     * [x3. 缓存特征、介质](DataBase/Redis/x3. 缓存特征、介质.md)
 - Front End
+  - Javascript
+    * [js中iframe的使用](FrontEnd/Javascript/js中iframe的使用.md)
   - Vuejs
-    * [Vue入门](FrontEnd/Vuejs/Vue入门.md)
+    * [Vuejs入门](FrontEnd/Vuejs/Vuejs入门.md)
     * [开源项目库汇总](FrontEnd/Vuejs/开源项目库汇总.md)
 - Notes
   - [Code](Notes/Code/README.md)
@@ -133,12 +143,15 @@
     * [多版本工作流](Notes/Git/多版本工作流.md)
     * [工作流](Notes/Git/工作流.md)
     * [快速入门Git](Notes/Git/快速入门Git.md)
+  - Gitbook
+    * [Gitbook自动生成SUMMARY](Notes/Gitbook/Gitbook自动生成SUMMARY.md)
   - HTTP
     * [HTTP状态码](Notes/HTTP/HTTP状态码.md)
   - Issues
     * [Curl](Notes/Issues/Curl.md)
     * [Git](Notes/Issues/Git.md)
     * [Redis](Notes/Issues/Redis.md)
+    * [内网和外网](Notes/Issues/内网和外网.md)
     * [无法常驻内存](Notes/Issues/无法常驻内存.md)
     * [环境搭建常见问题](Notes/Issues/环境搭建常见问题.md)
   - Linux
@@ -153,19 +166,6 @@
   - Nginx
     * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
     * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
-  - Rabbit Mq
-    * [1. RabbitMq的基础](Notes/RabbitMq/1. RabbitMq的基础.md)
-    * [2. RabbitMq的概念](Notes/RabbitMq/2. RabbitMq的概念.md)
-    * [x1. RabbitMQ与Redis队列对比](Notes/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
-  * [Gitbook自动生成SUMMARY](Notes/Gitbook自动生成SUMMARY.md)
-  * [js中iframe的使用](Notes/js中iframe的使用.md)
-  * [Vuejs入门](Notes/Vuejs入门.md)
-  * [Window10使用Minikube快速搭建Kubernetes环境](Notes/Window10使用Minikube快速搭建Kubernetes环境.md)
-  * [xdebug的使用](Notes/xdebug的使用.md)
-  * [内网和外网](Notes/内网和外网.md)
-  * [字符串加密解密](Notes/字符串加密解密.md)
-  * [常用函数](Notes/常用函数.md)
-  * [高性能](Notes/高性能.md)
 - PHP
   - Framework
     - [Codeigniter](PHP/Framework/Codeigniter/README.md)
@@ -194,6 +194,8 @@
   - [进程](PHP/进程/进程.md)
     * [管道](PHP/进程/管道.md)
     * [进程间通信](PHP/进程/进程间通信.md)
+  - 面向对象
+    * [类的变量](PHP/面向对象/类的变量.md)
   * [AOP](PHP/AOP.md)
   * [GET与POST的区别](PHP/GET与POST的区别.md)
   * [MVC](PHP/MVC.md)
@@ -205,8 +207,11 @@
   * [php数组](PHP/php数组.md)
   * [PSR](PHP/PSR.md)
   * [Session 和 Cookie](PHP/Session 和 Cookie.md)
+  * [xdebug的使用](PHP/xdebug的使用.md)
+  * [事务处理](PHP/事务处理.md)
   * [使用Xdebug进行远程调试](PHP/使用Xdebug进行远程调试.md)
   * [参考资料](PHP/参考资料.md)
+  * [字符串加密解密](PHP/字符串加密解密.md)
   * [常用函数](PHP/常用函数.md)
   * [弱语言类型](PHP/弱语言类型.md)
   * [敏感词过滤](PHP/敏感词过滤.md)
