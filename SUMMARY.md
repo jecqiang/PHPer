@@ -29,6 +29,14 @@
     * [x2. 服务发现](Architecture/MicroServices/x2. 服务发现.md)
     * [x3 监控](Architecture/MicroServices/x3 监控.md)
     * [参考资料](Architecture/MicroServices/参考资料.md)
+  - MQ
+    - Kafka
+      * [kafka介绍](Architecture/MQ/Kafka/kafka介绍.md)
+    - Rabbit Mq
+      * [1. RabbitMq的基础](Architecture/MQ/RabbitMq/1. RabbitMq的基础.md)
+      * [2. RabbitMq的概念](Architecture/MQ/RabbitMq/2. RabbitMq的概念.md)
+      * [x1. RabbitMQ与Redis队列对比](Architecture/MQ/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
+    * [消息队列](Architecture/MQ/消息队列.md)
   - Networks
     - HTTP
       * [1. 互联网协议入门](Architecture/Networks/HTTP/1. 互联网协议入门.md)
@@ -49,11 +57,10 @@
     * [协程](Architecture/Networks/协程.md)
     * [同步异步、阻塞非阻塞](Architecture/Networks/同步异步、阻塞非阻塞.md)
     * [进程、线程、协程](Architecture/Networks/进程、线程、协程.md)
-  - Rabbit Mq
-    * [1. RabbitMq的基础](Architecture/RabbitMq/1. RabbitMq的基础.md)
-    * [2. RabbitMq的概念](Architecture/RabbitMq/2. RabbitMq的概念.md)
-    * [x1. RabbitMQ与Redis队列对比](Architecture/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
   - 架构基础
+    * [分布式架构 Broker](Architecture/架构基础/分布式架构 Broker.md)
+    * [可扩展](Architecture/架构基础/可扩展.md)
+    * [高可用](Architecture/架构基础/高可用.md)
     * [高性能](Architecture/架构基础/高性能.md)
   - [设计模式](Architecture/设计模式/README.md)
     - Notes
@@ -102,12 +109,15 @@
       * [5. 索引](DataBase/MySQL/基础篇/5. 索引.md)
       * [6. 事务](DataBase/MySQL/基础篇/6. 事务.md)
       * [x1. 一条SQL查询语句是如何执行的？](DataBase/MySQL/基础篇/x1. 一条SQL查询语句是如何执行的？.md)
+      * [范式](DataBase/MySQL/基础篇/范式.md)
     - 实践篇
       * [1. 事务回滚](DataBase/MySQL/实践篇/1. 事务回滚.md)
       * [2. 隐式转换](DataBase/MySQL/实践篇/2. 隐式转换.md)
     - 性能优化
+      * [0. 性能优化](DataBase/MySQL/性能优化/0. 性能优化.md)
       * [1. 执行优化](DataBase/MySQL/性能优化/1. 执行优化.md)
       * [2. 架构优化](DataBase/MySQL/性能优化/2. 架构优化.md)
+      * [索引失效的场景](DataBase/MySQL/性能优化/索引失效的场景.md)
     - 文档
       * [Mysql安装](DataBase/MySQL/文档/Mysql安装.md)
     * [x1. 常见问题](DataBase/MySQL/x1. 常见问题.md)
@@ -142,6 +152,7 @@
     * [代码回滚](Notes/Git/代码回滚.md)
     * [多版本工作流](Notes/Git/多版本工作流.md)
     * [工作流](Notes/Git/工作流.md)
+    * [快速入门Git](Notes/Git/快速入门Git.md)
   - Gitbook
     * [Gitbook自动生成SUMMARY](Notes/Gitbook/Gitbook自动生成SUMMARY.md)
   - HTTP
@@ -165,6 +176,7 @@
   - Nginx
     * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
     * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
+  * [Window10使用Minikube快速搭建Kubernetes环境](Notes/Window10使用Minikube快速搭建Kubernetes环境.md)
 - PHP
   - Framework
     - [Codeigniter](PHP/Framework/Codeigniter/README.md)
