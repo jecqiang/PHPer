@@ -56,6 +56,7 @@
     * [IO模型](Architecture/Networks/IO模型.md)
     * [协程](Architecture/Networks/协程.md)
     * [同步异步、阻塞非阻塞](Architecture/Networks/同步异步、阻塞非阻塞.md)
+    * [多进程共用数据库连接问题](Architecture/Networks/多进程共用数据库连接问题.md)
     * [进程、线程、协程](Architecture/Networks/进程、线程、协程.md)
   - 架构基础
     * [分布式架构 Broker](Architecture/架构基础/分布式架构 Broker.md)
@@ -136,6 +137,7 @@
     * [x3. 缓存特征、介质](DataBase/Redis/x3. 缓存特征、介质.md)
 - Front End
   - Javascript
+    * [javascript上传图片检测宽度高度文件大小](FrontEnd/Javascript/javascript上传图片检测宽度高度文件大小.md)
     * [js中iframe的使用](FrontEnd/Javascript/js中iframe的使用.md)
   - Vuejs
     * [Vuejs入门](FrontEnd/Vuejs/Vuejs入门.md)
@@ -171,7 +173,7 @@
     * [Vim批量替换](Notes/Linux/Vim批量替换.md)
     * [命令](Notes/Linux/命令.md)
     * [安装扩展](Notes/Linux/安装扩展.md)
-    * [权限问题](Notes/Linux/权限问题.md)
+    * [文件权限问题](Notes/Linux/文件权限问题.md)
     * [解析配置](Notes/Linux/解析配置.md)
   - Nginx
     * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
@@ -222,6 +224,7 @@
   * [事务处理](PHP/事务处理.md)
   * [使用Xdebug进行远程调试](PHP/使用Xdebug进行远程调试.md)
   * [参考资料](PHP/参考资料.md)
+  * [大文件读取](PHP/大文件读取.md)
   * [字符串加密解密](PHP/字符串加密解密.md)
   * [常用函数](PHP/常用函数.md)
   * [弱语言类型](PHP/弱语言类型.md)

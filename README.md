@@ -29,29 +29,31 @@
     - [Sublime Text](http://www.sublimetext.com/) - [使用](https://github.com/han8gui/PHPer/blob/master/Tools/Sublime.md)
     - [VS code](https://code.visualstudio.com/)
     - [Notepad++](https://notepad-plus-plus.org/)
-
 - 服务器组件
     - [XAMPP](https://www.apachefriends.org/zh_cn/index.html)* 
     - [WampServer](http://www.wampserver.com)
     - [phpStudy](http://phpstudy.php.cn/)
-
 - 调试工具
     - [xhprof](http://php.net/manual/zh/book.xhprof.php)
     - [xdebug](https://xdebug.org/index.php)
     - [Fiddler](https://www.telerik.com/fiddler)
     - [Chrome Dev Tools](https://developer.chrome.com/devtools)
-
+    - [SwitchHosts](http://oldj.github.io/SwitchHosts/)
 - 版本管理
     - [Git](http://git-scm.com/)/[SVN](http://subversion.apache.org/)
     - [Github](https://github.com/)/[GitLab](https://about.gitlab.com/)
     - [Sourcetree](https://cn.atlassian.com/software/sourcetree)
-
 - Mysql
     - [Navicat for Mysql](https://www.navicat.com.cn/)
     - [PhpMyAdmin](https://www.phpmyadmin.net/)
-
 - Redis
-    - [redisdesktop](https://redisdesktop.com/) 
+    - [redisdesktop](https://redisdesktop.com/)
+- Markdown写作
+    - [Typora](https://typora.io/)
+    - [Cmd Markdown](https://www.zybuluo.com/mdeditor)
+- 云盘
+    - 百度云
+    - 坚果云
 
 ## 环境搭建
 - [Linux](https://zh.wikipedia.org/zh/Linux)
