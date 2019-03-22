@@ -126,6 +126,7 @@
     * [x3 资料推荐](DataBase/MySQL/x3 资料推荐.md)
   - Redis
     - 进阶
+      * [Untitled](DataBase/Redis/进阶/Untitled.md)
       * [消息队列](DataBase/Redis/进阶/消息队列.md)
       * [管道](DataBase/Redis/进阶/管道.md)
     * [1. 简介](DataBase/Redis/1. 简介.md)
@@ -135,13 +136,28 @@
     * [x1. 常见问题](DataBase/Redis/x1. 常见问题.md)
     * [x2. 参考资料](DataBase/Redis/x2. 参考资料.md)
     * [x3. 缓存特征、介质](DataBase/Redis/x3. 缓存特征、介质.md)
-- Front End
-  - Javascript
-    * [javascript上传图片检测宽度高度文件大小](FrontEnd/Javascript/javascript上传图片检测宽度高度文件大小.md)
-    * [js中iframe的使用](FrontEnd/Javascript/js中iframe的使用.md)
-  - Vuejs
-    * [Vuejs入门](FrontEnd/Vuejs/Vuejs入门.md)
-    * [开源项目库汇总](FrontEnd/Vuejs/开源项目库汇总.md)
+- [Front End](FrontEnd/README.md)
+  - [01 前端工具](FrontEnd/01 前端工具/README.md)
+    * [Apidoc](FrontEnd/01 前端工具/Apidoc.md)
+    * [Sublime](FrontEnd/01 前端工具/Sublime.md)
+    * [Webpack](FrontEnd/01 前端工具/Webpack.md)
+    * [Web Storm](FrontEnd/01 前端工具/WebStorm.md)
+  - 04 Java Script
+    * [javascript上传图片检测宽度高度文件大小](FrontEnd/04 JavaScript/javascript上传图片检测宽度高度文件大小.md)
+    * [js中iframe的使用](FrontEnd/04 JavaScript/js中iframe的使用.md)
+  - 10 Vue
+    * [Awesome](FrontEnd/10 Vue/awesome.md)
+    * [My Vue](FrontEnd/10 Vue/MyVue.md)
+    * [Vue](FrontEnd/10 Vue/Vue.md)
+    * [Vuejs入门](FrontEnd/10 Vue/Vuejs入门.md)
+    * [学习步骤](FrontEnd/10 Vue/学习步骤.md)
+    * [开源项目库汇总](FrontEnd/10 Vue/开源项目库汇总.md)
+  - x1 资源
+    * [博客推荐](FrontEnd/x1 资源/博客推荐.md)
+  - x2 常见问题
+    * [Cross Domain](FrontEnd/x2 常见问题/Cross-domain.md)
+- Go
+  * [为什么要学Go](Go/为什么要学Go.md)
 - Notes
   - [Code](Notes/Code/README.md)
     * [代码简洁之道](Notes/Code/代码简洁之道.md)
@@ -170,6 +186,7 @@
     * [Apache 和 nginx](Notes/Linux/Apache 和 nginx.md)
     * [Linux 防止rm误删文件，将rm配置成mv到.trash ](Notes/Linux/Linux 防止rm误删文件，将rm配置成mv到.trash .md)
     * [Linux下执行shell脚本，提示No such file or directory](Notes/Linux/Linux下执行shell脚本，提示No such file or directory.md)
+    * [linux压缩和解压缩命令大全](Notes/Linux/linux压缩和解压缩命令大全.md)
     * [Vim批量替换](Notes/Linux/Vim批量替换.md)
     * [命令](Notes/Linux/命令.md)
     * [安装扩展](Notes/Linux/安装扩展.md)
@@ -211,6 +228,7 @@
     * [类的变量](PHP/面向对象/类的变量.md)
   * [AOP](PHP/AOP.md)
   * [GET与POST的区别](PHP/GET与POST的区别.md)
+  * [include、include_once、require、require_once的区别](PHP/include、include_once、require、require_once的区别.md)
   * [MVC](PHP/MVC.md)
   * [Nginx和PHP-fpm的关系](PHP/Nginx和PHP-fpm的关系.md)
   * [ORM](PHP/ORM.md)
