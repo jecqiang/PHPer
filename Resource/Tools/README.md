@@ -19,6 +19,7 @@
 * [WebStorm](https://www.jetbrains.com/webstorm/)
 * [Notepad++](https://notepad-plus-plus.org/)
 * [Postman](https://www.getpostman.com/) - [文档](Postman.md)
+* Typora
 
 ## 产品工具
 * [墨刀](https://modao.cc/) - 强大易用的原型设计与协同工具
@@ -26,6 +27,7 @@
 ## 图片工具
 * [TinyPNG](https://tinypng.com/) - PNG & JPEG 图片压缩工具
 * [Snipaste](https://zh.snipaste.com/) - 屏幕截图软件超级利器
+* [AI人工智能图片放大](http://bigjpg.com/)
 
 ## 文档笔记
 * [石墨文档](https://shimo.im/)
@@ -33,6 +35,7 @@
 * [Evernote](https://evernote.com/intl/zh-cn)
 * [有道云笔记](https://note.youdao.com/)
 * [Cmd Markdown 编辑阅读器](https://www.zybuluo.com/) `windows`
+* [幕布](https://mubu.com/)
 
 ## 数据图表
 * [ProcessOn](https://processon.com)
